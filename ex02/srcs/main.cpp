@@ -6,7 +6,7 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 13:47:44 by abakirca          #+#    #+#             */
-/*   Updated: 2025/02/13 13:48:29 by abakirca         ###   ########.fr       */
+/*   Updated: 2025/03/10 15:31:19 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ int main()
 	std::cout << RESET << std::endl;
 	std::cout << BLUE"==================================================="RESET << std::endl << std::endl;
 	std::cout << YELLOW"Exception handling"RESET << std::endl << std::endl;
-	std::cout << BLUE"==================================================="RESET << std::endl;
+	std::cout << BLUE"==================================================="RESET << std::endl << std::endl;
 	try
 	{
 		std::cout << CYAN"Trying to access index 3 of array 1 <int> : "WHITE << array1[3] << RESET << std::endl;
